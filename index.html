@@ -1,55 +1,46 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geel Element met Wrapper</title>
+    <title>Centreren van een website</title>
     <style>
-        /* Algemene opmaak voor body */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0; /* Algemene achtergrondkleur van de pagina */
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        /* Wrapper om het gele element */
-        .wrapper {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
-
-        /* Stijl voor het gele element */
-        .geel-element {
-            background-color: yellow; /* Gele achtergrond voor het element */
-            color: blue; /* Blauwe tekstkleur */
-            padding: 20px;
-            border: 1px solid #ccc;
-            text-align: center;
-        }
-
-        /* Achtergrondkleur voor de tekst */
-        .geel-element span {
-            background-color: grey; /* Grijze achtergrond voor de tekst */
-            padding: 5px;
-            color: blue; /* Blauwe tekst */
-        }
+    #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    .tekst {
+        background-color: gray;
+        color: blue;
+    }
+ 
+    #wrapper1 {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    .tekst1 {
+        background-color: yellow;
+        color: yellow;
+        height: 200px;
+    }
+    p {
+        padding: 0px;
+        margin: 0px;
+    }
     </style>
 </head>
 <body>
-
-    <!-- Wrapper om het gele element -->
-    <div class="wrapper">
-        <div class="geel-element">
-            <span>Dit element is geel</span>
+    <div id="wrapper">
+        <div class="tekst">
+            <p>Dit element is geel.</p>
         </div>
     </div>
-
+    <div id="wrapper1">
+        <div class="tekst1">
+            <p>Dit element is geel.</p>
+        </div>
+    </div>
 </body>
 </html>
