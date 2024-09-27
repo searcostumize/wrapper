@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geel Element met Wrapper</title>
+    <style>
+        /* Algemene opmaak voor body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Algemene achtergrondkleur van de pagina */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Wrapper om het gele element */
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* Stijl voor het gele element */
+        .geel-element {
+            background-color: yellow; /* Gele achtergrond voor het element */
+            color: blue; /* Blauwe tekstkleur */
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        /* Achtergrondkleur voor de tekst */
+        .geel-element span {
+            background-color: grey; /* Grijze achtergrond voor de tekst */
+            padding: 5px;
+            color: blue; /* Blauwe tekst */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wrapper om het gele element -->
+    <div class="wrapper">
+        <div class="geel-element">
+            <span>Dit element is geel</span>
+        </div>
+    </div>
+
+</body>
+</html>
